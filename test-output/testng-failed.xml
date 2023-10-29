@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test02(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.practice.Adactin">
+        <methods>
+          <include name="login"/>
+          <include name="select"/>
+          <include name="startingSetup"/>
+          <include name="search"/>
+          <include name="book"/>
+          <include name="takeShot"/>
+          <include name="tearDown"/>
+          <include name="verifyLogo"/>
+        </methods>
+      </class> <!-- org.practice.Adactin -->
+    </classes>
+  </test> <!-- Test02(failed) -->
+  <test thread-count="5" name="Test03(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="org.practice.Adactin">
+        <methods>
+          <include name="select"/>
+          <include name="startingSetup"/>
+          <include name="search"/>
+          <include name="book"/>
+          <include name="takeShot"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.practice.Adactin -->
+    </classes>
+  </test> <!-- Test03(failed) -->
+</suite> <!-- Failed suite [Suite] -->
